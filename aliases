@@ -5,3 +5,84 @@ alias speedtest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/download
 
 # Quickly serve the current directory as HTTP
 alias serve='ruby -run -e httpd . -p 8000'  # Or python -m SimpleHTTPServer :)
+
+## Command Line Aliases ##
+
+#Terminal
+
+alias mk="mkdir"
+alias t="touch"
+alias o="open ."
+alias c="clear"
+
+
+#Git
+
+alias gi="git init"
+alias gd="git diff"
+alias gdH="git diff HEAD"
+
+alias gsH="git show HEAD"
+alias gcH="git checkout HEAD"
+alias gl="git log"
+alias gls="git log --summary"
+alias gst="git status"
+alias gc--="git checkout --"
+alias ga="git add"
+alias ga.="git add ."
+alias grH="git reset HEAD"
+alias gr="git reset"
+alias gc-m="git commit -m"
+alias gpu="git push -u origin master"
+alias gp="git push"
+alias gpom="git push origin master"
+alias gr-v="git remote -v"
+alias gb="git branch"
+alias gc="git checkout"
+alias gc-b="git checkout -b"
+alias gcm="git checkout master"
+alias gm="git merge"
+alias gb-d="git branch -d"
+alias gb-D="git branch -D"
+alias gpo="git push origin"
+alias gpullom="git pull origin master"
+alias gs="git stash"
+alias gsa="git stash apply"
+alias grm="git rm"
+
+
+#Github
+
+alias hc="hub create"
+alias hb="hub browse"
+
+#Heroku
+
+alias gphm="git push heroku master"
+alias hr="heroku run"
+alias hrrc="heroku run rails c"
+alias hdb:m="heroku run rails db:migrate"
+alias hg:r -a="heroku git:remote -a"
+alias hl="heroku logs"
+alias hlt="heroku logs --tail"
+alias hlin="heroku login"
+alias ho="heroku open"
+alias hc="heroku config"
+
+#Rails
+
+alias rs="rails s"
+alias rr="rails routes"
+alias rc="rails console"
+alias db:d="rails db:drop"
+alias db:c="rails db:create"
+alias db:m="rails db:migrate"
+alias db:s="rails db:seed"
+alias bi="bundle install"
+alias rgm="rails g model"
+alias rgc="rails g controller"
+
+
+
+
+
