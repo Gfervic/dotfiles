@@ -48,7 +48,7 @@
   mergeoptions = --no-edit
 [user]
 	email = gon.fervic@gmail.com
-	name = Gon Fdez.-Victorio
+	name = Gonzalo Fernandez Victorio
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f

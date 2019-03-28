@@ -9,13 +9,18 @@
 		"AdvancedNewFile",
 		"All Autocomplete",
 		"ApplySyntax",
+		"Babel",
 		"BracketHighlighter",
+		"Color Highlighter",
+		"CSS-On-Diet",
 		"Emmet",
 		"ERB Snippets",
 		"Git",
 		"GitGutter",
 		"JSX",
 		"Package Control",
-		"SCSS"
+		"SCSS",
+		"SublimeLinter",
+		"SublimeLinter-rubocop"
 	]
 }
