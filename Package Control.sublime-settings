@@ -1,7 +1,25 @@
 {
 	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
-		"Package Control"
+		"A File Icon",
+		"AdvancedNewFile",
+		"All Autocomplete",
+		"Babel",
+		"Color Highlighter",
+		"ColorHints",
+		"Emmet",
+		"ERB Snippets",
+		"Git",
+		"GitGutter",
+		"Highlighter",
+		"HTML-CSS-JS Prettify",
+		"Package Control",
+		"ReIndent",
+		"SCSS",
+		"SublimeLinter"
 	]
 }
